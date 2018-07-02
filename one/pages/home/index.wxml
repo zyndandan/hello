@@ -1,0 +1,37 @@
+<view class="container">
+<swiper  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="section section_gap" >
+  <view class="section__title">化妆造型</view>
+  <view class="scroll-view_H">
+    <view class="scroll-view-item_H" wx:for="{{hotList}}" wx:key="{{item}}" data-pic="{{item.pic}}"
+    data-title="{{item.title}}" data-area="{{item.area}}" data-day="{{item.day}}" data-avatar="{{item.avatar}}"
+    data-name="{{item.name}}" data-fee="{{item.fee}}"  data-experience="{{item.experience}}" bindtap="yuyue">
+      <image src="{{item.pic}}"class="scroll-image"/>
+      <view class="content" >
+      <view  class="title" >{{item.title}}</view>
+      <view class="scroll-view-item-AT">
+        <text class="area">哈哈哈哈就阿萨就开始考虑建立科技收到了空间来看手机卡了</text>
+      </view>
+      <view class="scroll-view-item-cf" >
+   
+        <view class="fee">{{item.fee}}</view>
+           <button open-type="contact" class="camerist_name">在线咨询</button>
+     
+
+      </view>
+     
+
+      </view>
+    </view>
+  </view>
+</view>
+<view class="more" bindtap="more">更多<image src="../../image/more.png"></image></view>
+<view class="near"><text>找附近专业人士拍摄</text><image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3297556650,65578514&fm=23&gp=0.jpg"></image></view>
+</view>

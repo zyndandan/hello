@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/home/index",
+
+    "pages/more/more",
+
+    "pages/my/index",
+ 
+    "pages/navigation/index",
+   
+    "pages/logs/logs"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"white",
+    "navigationBarBackgroundColor": "#515151",
+    "navigationBarTitleText": "空空视觉",
+    "navigationBarTextStyle":"#FFF"
+
+  },
+  "tabBar":{
+    "color":"#000000",
+    "selectedColor":"#F9B789",
+    "borderStyle":"white",
+    "backgroundColor":"#fff",
+    "list":[
+      {
+      "pagePath":"pages/home/index",
+      "iconPath":"/image/home.png",
+      "selectedIconPath":"/image/selecthome.png",
+      "text":"主页"
+      },
+      {
+        "pagePath":"pages/my/index",
+        "iconPath":"/image/my.png",
+        "selectedIconPath":"/image/selectmy.png",
+        "text":"案例"
+      },
+      {
+        "pagePath":"pages/navigation/index",
+        "iconPath":"/image/search.png",
+        "selectedIconPath":"/image/selectsearch.png",
+        "text":"关于我们"
+        }
+    ]
+  }
+}

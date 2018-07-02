@@ -1,0 +1,31 @@
+.anli-content{
+width: 100%;
+height: 100%;
+}
+.case-cont{
+width: 100%;
+height: 100%;
+
+}
+.content{width: 100%;height: 100%;}
+.case-img{
+  display: block;
+  height: 500rpx;
+  width: 100%;
+}
+.case-title{
+text-align: center;
+font-size: 40rpx;
+color: #a9a9a9;
+padding: 20rpx 0;
+
+
+}
+.case-text{
+text-align: center;
+font-size: 30rpx;
+color: #afafaf;
+
+padding: 20rpx;
+
+}

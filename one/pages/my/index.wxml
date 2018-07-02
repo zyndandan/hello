@@ -1,0 +1,7 @@
+<view class='content'>
+   <view class='case-cont' wx:for="{{hotList}}">
+       <image class='case-img'src="{{item.img}}"></image>
+       <view class='case-title'>{{item.tit}}</view>
+       <view class='case-text'>{{item.text}} </view>
+   </view>
+</view>
